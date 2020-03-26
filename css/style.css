@@ -1,51 +1,59 @@
-body 
-{
-    font-family: Arial, Helvetica, sans-serif;/*forme de text*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*forme de text*/
     color: #22af29;
 }
-h1
-{
-    color: #1443dc;   /* mettre de la couleur */
-    text-align: center; /* ALIGNER LE TEXTE 5 LEFT, RIGHT, JUSIFY*/ 
-    letter-spacing: 3px; /* espaceles lettres entre-elles*/
-    font-weight: normal; /*retire le gras pour gras mettre bold*/
-    text-transform: uppercase; /* mettre en MAJ*/ 
+
+h1 {
+    color: #1443dc;
+    /* mettre de la couleur */
+    text-align: center;
+    /* ALIGNER LE TEXTE 5 LEFT, RIGHT, JUSIFY*/
+    letter-spacing: 3px;
+    /* espaceles lettres entre-elles*/
+    font-weight: normal;
+    /*retire le gras pour gras mettre bold*/
+    text-transform: uppercase;
+    /* mettre en MAJ*/
     border: 5px double black;
-    border-radius: 10px 0 10px 0;/* arondi les bordures*/
-    padding: 5px; /* espacement a l'interrieur du bloc*/
-    box-shadow: 6px 6px 10px #35fb03 inset; 
+    border-radius: 10px 0 10px 0;
+    /* arondi les bordures*/
+    padding: 5px;
+    /* espacement a l'interrieur du bloc*/
+    box-shadow: 6px 6px 10px #35fb03 inset;
 }
-h2
-{
+
+h2 {
     color: #4f9905;
     font-weight: bold;
 }
-h3
-{
+
+h3 {
     color: #3a7003;
     font-weight: bold;
 }
-h3:hover 
-{
+
+h3:hover {
     color: blue;
 }
-#monpremiersite 
-{
+
+#monpremiersite {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-nav
- {
+
+nav {
     background-color: rgb(114, 185, 43);
     padding: 15px;
 }
-ol
-{
+
+ol {
     list-style-type: circle;
     margin: 0 5px 0 0;
 }
-li
-{
-    list-style-type: circle; /*style des puces listes (circle, disc, hiragana, square et le decimal)*/
+
+li {
+    list-style-type: circle;
+    /*style des puces listes (circle, disc, hiragana, square et le decimal)*/
     display: inline-block;
     margin: 0 10px 0 0;
 }
@@ -55,75 +63,79 @@ table {
     text-align: center;
     margin: auto;
 }
-th 
-{
+
+th {
     color: #7cc236fd;
 }
-td
-{
+
+td {
     border: 1px solid rgb(65, 187, 34);
     box-shadow: darkgreen 5px 5px 0 0;
     padding: 15px;
     color: #4f9905;
 }
-a 
-{
+
+a {
     font-weight: bold;
-    text-decoration: none;/* retire la barre*/
+    text-decoration: none;
+    /* retire la barre*/
     color: #07da58;
-    font-size: 15px; /* taille text*/
+    font-size: 15px;
+    /* taille text*/
 }
-a:hover
-{
-    color:rgb(0, 108, 250);/* passe de la 1er a la 2éme couleur */
+
+a:hover {
+    color: rgb(0, 108, 250);
+    /* passe de la 1er a la 2éme couleur */
 }
-P 
-{  
-    text-align:justify;
+
+P {
+    text-align: justify;
     color: #22af29;
     width: 65%;
 }
-#paragraphe
-{
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #083100;
+    color: rgb(0, 255, 34);
+    padding: 15px;
+    text-align: center;
+
+}
+
+#paragraphe {
     float: RIGHT;
     width: 30%;
     border: 1px solid black;
     border-radius: 10px 0 10px 0;
     padding: 10px;
     box-sizing: border-box;
-    box-shadow: 6px 6px 10px #35fb03 inset; 
+    box-shadow: 6px 6px 10px #35fb03 inset;
     margin-top: 10px;
     height: 300px;
     overflow: auto;
 
 }
-#segondparagraphe 
-{ 
+
+#segondparagraphe {
     width: 50%;
     padding: 10px;
     box-sizing: border-box;
     word-wrap: break-word;
-   
 
-} 
-#deuxièmepara 
-{
+
+}
+
+#deuxièmepara {
     color: #000000;
 
 }
-p::first-letter
-{
+
+#troisiemeparagraphe
+
+p::first-letter {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;}
-
-
-
-
-
-
-
-
-
-
-    
+    font-size: 18px;
+}

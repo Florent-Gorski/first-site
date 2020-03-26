@@ -1,4 +1,0 @@
-[0308/161334.156:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
-[0308/161334.164:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
-[0308/161334.166:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
-[0308/161334.174:ERROR:exception_snapshot_win.cc(98)] thread ID 196288 not found in process
